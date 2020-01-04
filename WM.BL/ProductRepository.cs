@@ -1,25 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace WM.BL
 {
     public class ProductRepository
     {
-        public Product Retrieve()
+        private List<Product> products;
+        public Product RetrieveById(int id)
         {
-            var product = new Product()
-            {
-                Id = 1,
-                ProductName = "Milk"
-            };
-
-            return product;
+            return products.SingleOrDefault(p => p.Id==id);
         }
         public List<Product> RetriveAll()
-        {
-            var products = new List<Product>();
+        { 
             return products;
+        }
+        public void Add(Product product)
+        {
+            products.Add(product);
         }
     }
 }
