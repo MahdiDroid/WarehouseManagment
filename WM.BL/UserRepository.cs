@@ -4,19 +4,19 @@ using System.Text;
 
 namespace WM.BL
 {
-    public class OrderRepository : IRepository<Order>
+    public class UserRepository : IRepository<User>
     {
-        public void Add(Order entity)
+        public void Add(User entity)
         {
             throw new NotImplementedException();
         }
 
-        public List<Order> RetrieveAll()
+        public List<User> RetrieveAll()
         {
             throw new NotImplementedException();
         }
 
-        public Order RetrieveById(int id)
+        public User RetrieveById(int id)
         {
             throw new NotImplementedException();
         }

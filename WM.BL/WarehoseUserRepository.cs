@@ -4,8 +4,13 @@ using System.Text;
 
 namespace WM.BL
 {
-    public class WarehoseUserRepository
+    public class WarehoseUserRepository :IRepository<WarehouseUser>
     {
+        public void Add(WarehouseUser entity)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<WarehouseUser> RetrieveAll()
         {
             var warehouse= new List<Warehouse>{
@@ -23,6 +28,11 @@ namespace WM.BL
                 new WarehouseUser{Id=30,UserId=99,WarehouseId=1}
             };
             return warehouseUsers;
+        }
+
+        public WarehouseUser RetrieveById(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }

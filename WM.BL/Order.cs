@@ -6,9 +6,11 @@ namespace WM.BL
 {
     public class Order
     {
-        public int UserId { get; set; }
         public DateTime DateTime { get; set; }
-
+        public int DestinationUserId { get; set; }
+        public int OriginUserId { get; set; }
+        public int OriginWarehouseId { get; set; }
+        public int DestinationWarehouseId { get; set; }
 
     }
 }

@@ -6,7 +6,7 @@ namespace WM.BL
 {
     public interface IRepository <T>
     {
-        T RetriveById(int id);
+        T RetrieveById(int id);
         List<T> RetrieveAll();
         void Add(T entity);
 
