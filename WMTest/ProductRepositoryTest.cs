@@ -11,6 +11,17 @@ namespace WMTest
         {
             //arr
             var productRepository = new ProductRepository();
+            var expected = new Product()
+            {
+                Id = 1,
+                ProductName = "Milk"
+            
+            };
+            //act
+            var actual = productRepository.Retrieve();
+            //
+            Assert.AreEqual(expected.Id, actual.Id);
+            Assert.AreEqual(expected.ProductName, actual.ProductName);
 
         }
     }
