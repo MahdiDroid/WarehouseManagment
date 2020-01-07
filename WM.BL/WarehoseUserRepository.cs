@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WM.BL
+namespace WM.BL.Repositories
 {
     public class WarehoseUserRepository :IRepository<WarehouseUser>
     {
         public void Add(WarehouseUser entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(WarehouseUser entity)
         {
             throw new NotImplementedException();
         }
@@ -31,6 +36,11 @@ namespace WM.BL
         }
 
         public WarehouseUser RetrieveById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(WarehouseUser entity)
         {
             throw new NotImplementedException();
         }

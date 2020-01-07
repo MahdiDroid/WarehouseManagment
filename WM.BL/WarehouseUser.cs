@@ -9,5 +9,7 @@ namespace WM.BL
         public int Id { get; set; }
         public int WarehouseId { get; set; }
         public int UserId { get; set; }
+
+        public User User { get; set; }
     }
 }
