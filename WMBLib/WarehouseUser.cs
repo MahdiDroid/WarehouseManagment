@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WM.BL
+namespace WMBLib
 {
    public  class WarehouseUser
     {

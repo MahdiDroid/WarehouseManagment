@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace WM.BL
+namespace WMBLib
 {
-    public class Warehouse
+    public class Product
     {
         public int Id { get; set; }
         public string Name { get; set; }
 
 
     }
+
 }
