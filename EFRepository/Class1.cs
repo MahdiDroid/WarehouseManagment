@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EFRepository
 {
-    public class DbContext
+    public class Class1
     {
     }
 }

@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CA4373AD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMTest", "WMTest\WMTest.csproj", "{98DE760E-DE4B-4FC7-8BA0-B4984BDB22EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFRepository", "EFRepository\EFRepository.csproj", "{4ECA8371-B4B9-4C75-8F8E-2628BC85E87F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFRepository", "EFRepository\EFRepository.csproj", "{0F8E877A-D1F1-4FEF-BBA8-5E9FA76FA1F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		{98DE760E-DE4B-4FC7-8BA0-B4984BDB22EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98DE760E-DE4B-4FC7-8BA0-B4984BDB22EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98DE760E-DE4B-4FC7-8BA0-B4984BDB22EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4ECA8371-B4B9-4C75-8F8E-2628BC85E87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4ECA8371-B4B9-4C75-8F8E-2628BC85E87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4ECA8371-B4B9-4C75-8F8E-2628BC85E87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4ECA8371-B4B9-4C75-8F8E-2628BC85E87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8E877A-D1F1-4FEF-BBA8-5E9FA76FA1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8E877A-D1F1-4FEF-BBA8-5E9FA76FA1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8E877A-D1F1-4FEF-BBA8-5E9FA76FA1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8E877A-D1F1-4FEF-BBA8-5E9FA76FA1F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
