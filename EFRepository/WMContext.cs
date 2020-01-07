@@ -9,7 +9,7 @@ using System.Data.Entity;
 
 namespace EFRepository
 {
-    public class WMContext :DbContext 
+     internal class WMContext :DbContext 
     {
         public DbSet<Product> Products { get; set; }
     }
