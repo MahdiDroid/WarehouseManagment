@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WM.BL
+namespace WM.BL.Repositories
 {
     public class UserRepository : IRepository<User>
     {
         public void Add(User entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(User entity)
         {
             throw new NotImplementedException();
         }
@@ -17,6 +22,11 @@ namespace WM.BL
         }
 
         public User RetrieveById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(User entity)
         {
             throw new NotImplementedException();
         }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace WM.BL
+namespace WM.BL.Repositories
 {
     public class ProductRepository :IRepository<Product>
     {
@@ -19,6 +19,16 @@ namespace WM.BL
         public void Add(Product product)
         {
             products.Add(product);
+        }
+
+        public void Update(Product entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Delete(Product entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }
